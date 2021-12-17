@@ -1,7 +1,7 @@
 # Weather App
 ## A simple weather app for university assignment
 
-Technologies used for this assignment
+Technologies used for this assignment:
 - React Native
   - Core components, functionalities and layout of the app were done using React Native
 - Expo
