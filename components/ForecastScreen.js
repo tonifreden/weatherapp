@@ -47,6 +47,7 @@ export default function ForecastScreen() {
         favsDb.transaction(tx => {
             tx.executeSql("insert into favourite (city) values (?);", [city]);
         }, null, updateFavourites);
+        Alert.alert(`${city} saved to favourites!`)
     }
 
     const saveToHistory = () => {
